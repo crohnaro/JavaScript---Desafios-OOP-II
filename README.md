@@ -21,7 +21,7 @@ Antes de começar, você precisará ter o seguinte instalado em seu computador:
 Clone o repositório forkado para o seu computador:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/avaScript-Orientado-a-Objetos.git
+git clone https://github.com/SEU-USUARIO/JavaScript---Desafios-OOP-II.git
 ```
 ### 3. Navegar até o Diretório do Projeto
    Entre no diretório do projeto clonado:
