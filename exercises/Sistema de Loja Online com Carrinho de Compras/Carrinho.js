@@ -4,14 +4,14 @@ class Carrinho {
     }
 
     adicionarItem(produto, quantidade) {
-        // Verifica se o produto já está no carrinho
+        
         const itemExistente = this.itens.find(item => item.produto === produto);
 
         if (itemExistente) {
-            // Se o produto já existe, atualiza a quantidade
+            
             itemExistente.quantidade += quantidade;
         } else {
-            // Caso contrário, adiciona um novo item ao carrinho
+           
             this.itens.push({ produto, quantidade });
         }
     }
