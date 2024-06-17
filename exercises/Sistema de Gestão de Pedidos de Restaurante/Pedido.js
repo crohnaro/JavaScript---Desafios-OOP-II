@@ -1,13 +1,13 @@
 class Pedido {
-    constructor(numero, itens = []) {
-       
+    constructor(id) {
+        this.id = id;
+        this.pronto = false;
     }
-
-    adicionarItem(item) {
-      
+ 
+    marcarComoPronto() {
+        this.pronto = true;
     }
-
-   
+ 
 }
-
+ 
 module.exports = Pedido;
