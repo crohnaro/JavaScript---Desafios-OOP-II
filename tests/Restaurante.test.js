@@ -1,4 +1,4 @@
-const Restaurante = require('../exercises/Sistema de Gestão de Pedidos/Rstaurante');
+const Restaurante = require('../exercises/Sistema de Gestão de Pedidos/Restaurante');
 const Pedido = require('../exercises/Sistema de Gestão de Pedidos/Pedido');
 
 test('Adicionar pedido ao restaurante', () => {
